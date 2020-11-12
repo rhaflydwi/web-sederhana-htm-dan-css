@@ -1,0 +1,63 @@
+/* Style */
+*{
+	margin: 0px;
+}
+.container{
+	width: 96px;
+	margin: auto;
+	background-color: #ffffff;
+}
+body{
+	font: 16px Segoe UI;
+	background-color: #eaeaea;
+	color: #333333;
+}
+.header{
+	padding: 20px;
+}
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.header a{
+	text-decoration: none;
+	color: red;
+	padding: 10px;
+}
+.header a:hover{
+	background-color: red;
+	color: #fff;
+}
+.slider{
+	height: 250px;
+	background-image: url(img/gaming.png);
+	background-size: cover;
+	background-position: 0 -50px;
+	border-top: 10px solid red;
+	border-bottom: 5px solid orange;
+}
+.content{
+	padding: 20px;
+}
+.content h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+.content .penulis{
+	font-size: 12px;
+	margin: 5px;
+}
+.footer{
+	background-color: red;
+	padding: 20px;
+}
+.footer .copy{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
